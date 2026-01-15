@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тест iframe UNIDOG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background: #f0f0f0;
+        }
+        .iframe-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        iframe {
+            width: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="iframe-container">
+        <h1>UNIDOG в iframe</h1>
+        <p>Высота iframe увеличена до 1600px для полного отображения контента без скролла.</p>
+
+        <iframe
+            src="index.html"
+            width="100%"
+            height="1600"
+            frameborder="0"
+            scrolling="no"
+            allowfullscreen>
+            Ваш браузер не поддерживает iframe.
+        </iframe>
+    </div>
+</body>
+</html>

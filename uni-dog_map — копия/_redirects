@@ -1,0 +1,2 @@
+/api/maps/* https://api-maps.yandex.ru/:splat 200
+/firebase/* https://www.gstatic.com/firebasejs/:splat 200
